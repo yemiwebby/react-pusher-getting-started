@@ -53,6 +53,7 @@ class App extends Component {
           <ChatList chats={this.state.chats} />
           <ChatBox
             text={this.state.text}
+            username={this.state.username}
             handleTextChange={this.handleTextChange}
           />
         </section>
